@@ -1,5 +1,0 @@
-rvm:
-  - jruby
-branches:
-  only:
-    - master
