@@ -19,13 +19,19 @@ end
 
 gem 'jquery-rails'
 gem 'therubyrhino'
+gem 'will_paginate'
+gem 'foreman'
+gem 'sunspot'
+gem 'sunspot_solr'
+gem 'sunspot_rails'
+
 
 
 group :development do
   gem 'warbler'
 end
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
